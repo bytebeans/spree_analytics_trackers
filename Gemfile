@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'spree', github: 'spree/spree', branch: 'master'
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: 'master'
+gem 'spree', '>= 4.3', github: 'bytebeans/spree', branch: 'my-4-3-stable'
+gem 'spree_auth_devise', '~> 4.3'
 gem 'rails-controller-testing'
 
 gemspec
